@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Robot Mono',serif;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 100px 0 0 0;
+  }
+  
+  img.avatar {
+    width: 25%;
+    border-radius: 50%;
+    background-color:#9df6f9bb;
+  }
+body
+{
+    background:#05eeff;
+}
+.emp
+{
+    justify-content: center;
+}
+h2{
+    font-size:3vw;
+    color:black;
+    margin:50px 0 0 0 ;
+    text-transform:Uppercase;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+.contact{
+    margin:1px 0 0 80px;
+}
+
+

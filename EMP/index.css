@@ -1,0 +1,82 @@
+body{
+    background-size: cover;
+    background-repeat: repeat-y;
+    width: auto;
+    height: auto;
+    background-image: url(img/back.jpeg);
+    
+}
+ol
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b85f4aa;
+}
+li
+{
+    float:right;
+}
+li a:hover:not(.active)
+{
+    background-color:red; 
+    color: rgb(106, 137, 239); 
+}
+.active
+{
+    background-color:beign;
+}
+
+div.head{
+    width:auto;
+    height:70px;
+    margin:auto;
+  
+}
+div h1{
+    text-align: center;
+    color:yellow;
+}
+
+li a, .log{
+    display: inline-block;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover, .login:hover .log{
+    background-color: red;
+    color: rgb(80, 168, 244);
+}
+li.login{
+    display: inline-block;
+}
+.login-person{
+    display: none;
+    position: absolute;
+    background-color: #6db3ec;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.login-person a{
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.login-person a:hover{
+    background-color: #66bdec;
+}
+.login:hover .login-person
+{
+    display: block;
+}
+.contact{
+    margin:1px 0 0 80px;
+}
+.footer{
+    margin:31% 0 0 75%;
+}
